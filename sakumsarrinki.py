@@ -19,13 +19,13 @@ if figura == 1:
   if figurarek == 12:
      radapr = float(input("Caur kādu lielumu rēķināsim, riņķa līnijas garumu(121) vai riņķa laukumu(122)!"))
 
-  if radapr == 121:
-      radlin = float(input("ievadi riņķa līnijas garumu!"))
-      print("riņķa radiuss ir", rinkis.radiussnolinijas(radlin) , "!")
+     if radapr == 121:
+         radlin = float(input("ievadi riņķa līnijas garumu!"))
+         print("riņķa radiuss ir", rinkis.radiussnolinijas(radlin) , "!")
 
-  if radapr == 122:
-      radlauk = float(input("ievadi riņķa laukumu!")) 
-      print("riņķa radiuss ir", rinkis.radiussnolaukumaa(radlauk) , "!")
+     if radapr == 122:
+         radlauk = float(input("ievadi riņķa laukumu!")) 
+         print("riņķa radiuss ir", rinkis.radiussnolaukumaa(radlauk) , "!")
 
 
 if figura == 2:

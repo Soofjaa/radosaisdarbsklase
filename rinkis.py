@@ -13,5 +13,5 @@ def radiussnolinijas (radlin):
     return radgar
 
 def radiussnolaukumaa (radlauk):
-    radgarr = (math.sqrt(radlauk//math.pi))
+    radgarr = (math.sqrt(radlauk/math.pi))
     return radgarr
