@@ -17,7 +17,7 @@ if figura == 1:
     radapr = float(input("Caur kādu lielumu rēķināsim, riņķa līnijas garumu(121) vai riņķa laukumu(122)!"))
     if radapr == 121:
       radlin = float(input("ievadi riņķa līnijas garumu!"))
-      radgar = (radlin//2*math.pi)
+      radgar = (radlin//(2*math.pi))
       print("riņķa radiuss ir", radgar , "!")
     if radapr == 122:
       radlauk = float(input("ievadi riņķa laukumu!"))
