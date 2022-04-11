@@ -1,5 +1,5 @@
 import math
-math.sqrt()
+
 def perimetrs (a,b):
     return (a)*2+(b)*2
 def laukums (a,b):
